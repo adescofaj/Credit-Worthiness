@@ -177,10 +177,10 @@ This is a **personal portfolio project** showcasing my expertise in:
 ---
 
 ## Contact
+ 
+**Amirlahi Ademola Fajingbesi**  
+**Data Scientist**  
 
-**Abdullah Badrudeen**  
-**AI Developer**  
-
-📧 abdullahbadru66@gmail.com  
-🔗 https://www.linkedin.com/in/abdullahibadrudeen  
-📱 +234 903 4869 909  
+📧 adescofaj@gmail.com  
+🔗 https://github.com/adescofaj 
+📱 07765624800  
