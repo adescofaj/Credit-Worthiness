@@ -1,0 +1,29 @@
+{
+  "feature_names": [
+    "age",
+    "gender",
+    "total_monthly_inflow",
+    "total_monthly_outflow",
+    "transaction_frequency",
+    "salary_payment_detected",
+    "end_of_month_balance",
+    "highest_credit_amount",
+    "highest_debit_amount",
+    "gambling_transactions_count",
+    "loan_related_transactions_count",
+    "previous_loan_taken",
+    "previous_loan_amount",
+    "missed_payment_count",
+    "airtime_spend_per_month",
+    "data_subscription_spend",
+    "savings_rate",
+    "balance_ratio",
+    "debt_to_income",
+    "spending_ratio",
+    "emp_Self-employed",
+    "emp_Unemployed",
+    "repay_No_Loan",
+    "repay_On-time"
+  ],
+  "n_features": 24
+}

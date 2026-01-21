@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+credit_worthiness_env/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Environment variables (IMPORTANT - API keys)
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+CLAUDE.md
