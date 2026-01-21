@@ -1,0 +1,109 @@
+{
+  "best_model": "Logistic Regression",
+  "test_metrics": {
+    "accuracy": 0.839,
+    "precision": 0.741777466759972,
+    "recall": 0.7940074906367042,
+    "f1": 0.7670043415340086,
+    "roc_auc": 0.9004380546830535
+  },
+  "train_metrics": {
+    "accuracy": 0.845,
+    "precision": 0.7521141649048626,
+    "recall": 0.7991388992886559,
+    "f1": 0.7749137774550735,
+    "roc-auc": 0.9097516861146799
+  },
+  "confusion_matrix": [
+    [
+      2296,
+      369
+    ],
+    [
+      275,
+      1060
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8930377285103073,
+      "recall": 0.8615384615384616,
+      "f1-score": 0.8770053475935828,
+      "support": 2665.0
+    },
+    "1": {
+      "precision": 0.741777466759972,
+      "recall": 0.7940074906367042,
+      "f1-score": 0.7670043415340086,
+      "support": 1335.0
+    },
+    "accuracy": 0.839,
+    "macro avg": {
+      "precision": 0.8174075976351396,
+      "recall": 0.8277729760875829,
+      "f1-score": 0.8220048445637957,
+      "support": 4000.0
+    },
+    "weighted avg": {
+      "precision": 0.8425546161511329,
+      "recall": 0.839,
+      "f1-score": 0.8402925118211999,
+      "support": 4000.0
+    }
+  },
+  "top_features": {
+    "emp_Unemployed": 1.4700867724660234,
+    "repay_On-time": 1.0743704862875951,
+    "missed_payment_count": 1.013531794288039,
+    "salary_payment_detected": 0.793468452716954,
+    "gambling_transactions_count": 0.750103538487054,
+    "emp_Self-employed": 0.5298336963297975,
+    "previous_loan_taken": 0.45344387626327715,
+    "total_monthly_outflow": 0.37704080759998965,
+    "repay_No_Loan": 0.2929604200254409,
+    "debt_to_income": 0.24355670594124396,
+    "total_monthly_inflow": 0.22277125357378336,
+    "loan_related_transactions_count": 0.21855550055045853,
+    "end_of_month_balance": 0.17456848178376347,
+    "age": 0.15494273633710046,
+    "savings_rate": 0.11466301196243948
+  },
+  "all_models": {
+    "Logistic Regression": {
+      "accuracy": 0.839,
+      "precision": 0.741777466759972,
+      "recall": 0.7940074906367042,
+      "f1": 0.7670043415340086,
+      "roc_auc": 0.9004380546830535,
+      "cv_roc_auc_mean": 0.9085258670701,
+      "cv_roc_auc_std": 0.0046871778025039095
+    },
+    "Random Forest": {
+      "accuracy": 0.845,
+      "precision": 0.820627802690583,
+      "recall": 0.6853932584269663,
+      "f1": 0.746938775510204,
+      "roc_auc": 0.8921188102114382,
+      "cv_roc_auc_mean": 0.8991686538371457,
+      "cv_roc_auc_std": 0.0037382774587479436
+    },
+    "XGBoost": {
+      "accuracy": 0.835,
+      "precision": 0.7531882970742686,
+      "recall": 0.752059925093633,
+      "f1": 0.7526236881559221,
+      "roc_auc": 0.887564840384791,
+      "cv_roc_auc_mean": 0.891705978134264,
+      "cv_roc_auc_std": 0.005094237793886009
+    },
+    "LightGBM": {
+      "accuracy": 0.83425,
+      "precision": 0.7410329985652798,
+      "recall": 0.7737827715355805,
+      "f1": 0.7570538658849395,
+      "roc_auc": 0.8994222512665921,
+      "cv_roc_auc_mean": 0.9040239599314498,
+      "cv_roc_auc_std": 0.0053668138635038125
+    }
+  }
+}
